@@ -1,33 +1,33 @@
-# Mountain World (MW)
+# Mountain World
 
-> Convert overworld into all-mountain terrain. Y 80-300 playable, deep valleys, glacier peaks. Vanilla ores/structures/mobs remapped via Isekai API.
+> Overworld becomes all mountain, all the time. Y 80-300 is playable, valleys cut down past Y 0 into chasms, peaks reach glacier biome at Y 280+. Vertical traversal is the game.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Modrinth](https://img.shields.io/badge/Modrinth-mountain-world-00AF5C)](https://modrinth.com/mod/mountain-world)
-[![CurseForge](https://img.shields.io/badge/CurseForge-mountain-world-F16436)](https://www.curseforge.com/minecraft/mc-mods/mountain-world)
+[![NeoForge 1.21.1](https://img.shields.io/badge/NeoForge-1.21.1-orange.svg)](https://neoforged.net)
+[![Depends on Isekai API](https://img.shields.io/badge/Depends-Isekai%20API-9333ea)](https://github.com/KURONAMI333/isekai-api)
 
 ---
 
-## Supported Loaders / Versions
+## Concept
 
-| Minecraft | NeoForge | Forge | Fabric |
-|---|:---:|:---:|:---:|
-| 1.21.1 | TBD | TBD | TBD |
-| 1.20.1 |  —  | TBD | TBD |
+The entire overworld becomes vertical. There is no plain, no flat coast, no horizontal expanse — only slope, valley, and peak. Vanilla ores, structures, and mobs are remapped via Isekai API: villages sit in valleys, strongholds in the deepest chasms, glaciers cap the highest peaks.
 
-(TBD: 実装後に更新)
+Pairs naturally with bridge / rope / climbing / glider mods.
 
----
+## How it works
 
-## Why?
+Mountain World is built on **[Isekai API](https://github.com/KURONAMI333/isekai-api)**, a neutral universal worldgen library.
 
-(目的、解決する問題を 2-3 行で)
+The library provides composable density and rule-adaptation primitives; Mountain World composes them to express the tall-mountain worldshape. The library has no concept of "mountain" — Mountain World is just one application of `add`, `lerp`, `mask_y_range`, and friends.
 
-## Installation
+## Status
 
-1. ローダー導入
-2. 依存 MOD 導入（あれば）
-3. `mountain-world-X.Y.Z-{loader}-{mc}.jar` を `mods/` に配置
+**v0.1**: skeleton. `WorldshapeDescriptor` declaration + density composition land with Isekai API v0.2.
+
+## Dependencies
+
+- NeoForge 1.21.1
+- [Isekai API](https://github.com/KURONAMI333/isekai-api) (required)
 
 ## License
 

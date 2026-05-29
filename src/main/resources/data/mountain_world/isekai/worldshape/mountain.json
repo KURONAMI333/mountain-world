@@ -1,0 +1,63 @@
+{
+  "dimension": "minecraft:overworld",
+
+  "playable_range": {
+    "min_y": 80,
+    "max_y": 300,
+    "distribution": "trapezoid"
+  },
+
+  "surface_anchor": { "type": "isekai:world_surface" },
+
+  "ore_strategy":       { "type": "isekai:linear" },
+  "structure_strategy": { "type": "isekai:identity" },
+  "mob_spawn_strategy": { "type": "isekai:identity" },
+
+  "default_structure_predicate": {
+    "type": "isekai:and",
+    "all": [
+      { "type": "isekai:y_in_range", "min": 80, "max": 300 },
+      { "type": "isekai:solid_floor", "min_clearance": 3 }
+    ]
+  },
+
+  "structure_predicates": {
+    "minecraft:village_plains":  { "type": "isekai:and", "all": [{ "type": "isekai:y_in_range", "min": 80, "max": 140 }, { "type": "isekai:solid_floor", "min_clearance": 4 }] },
+    "minecraft:village_savanna": { "type": "isekai:and", "all": [{ "type": "isekai:y_in_range", "min": 80, "max": 140 }, { "type": "isekai:solid_floor", "min_clearance": 4 }] },
+    "minecraft:village_taiga":   { "type": "isekai:and", "all": [{ "type": "isekai:y_in_range", "min": 80, "max": 140 }, { "type": "isekai:solid_floor", "min_clearance": 4 }] },
+    "minecraft:village_desert":  { "type": "isekai:and", "all": [{ "type": "isekai:y_in_range", "min": 80, "max": 140 }, { "type": "isekai:solid_floor", "min_clearance": 4 }] },
+    "minecraft:village_snowy":   { "type": "isekai:and", "all": [{ "type": "isekai:y_in_range", "min": 200, "max": 280 }, { "type": "isekai:solid_floor", "min_clearance": 4 }] },
+    "minecraft:stronghold":      { "type": "isekai:y_in_range", "min": -64, "max": 30 },
+    "minecraft:monument":  { "type": "isekai:never" },
+    "minecraft:shipwreck":          { "type": "isekai:never" },
+    "minecraft:shipwreck_beached":  { "type": "isekai:never" },
+    "minecraft:buried_treasure":    { "type": "isekai:never" },
+    "minecraft:ocean_ruin_cold":    { "type": "isekai:never" },
+    "minecraft:ocean_ruin_warm":    { "type": "isekai:never" }
+  },
+
+  "applies_to": [
+    "minecraft:plains", "minecraft:sunflower_plains",
+    "minecraft:snowy_plains", "minecraft:ice_spikes",
+    "minecraft:desert", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:windswept_savanna",
+    "minecraft:forest", "minecraft:flower_forest", "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest", "minecraft:dark_forest",
+    "minecraft:taiga", "minecraft:snowy_taiga",
+    "minecraft:old_growth_pine_taiga", "minecraft:old_growth_spruce_taiga",
+    "minecraft:jungle", "minecraft:sparse_jungle", "minecraft:bamboo_jungle",
+    "minecraft:swamp", "minecraft:mangrove_swamp",
+    "minecraft:meadow", "minecraft:cherry_grove",
+    "minecraft:grove", "minecraft:snowy_slopes",
+    "minecraft:frozen_peaks", "minecraft:jagged_peaks", "minecraft:stony_peaks",
+    "minecraft:windswept_hills", "minecraft:windswept_gravelly_hills", "minecraft:windswept_forest",
+    "minecraft:beach", "minecraft:snowy_beach", "minecraft:stony_shore",
+    "minecraft:mushroom_fields", "minecraft:river", "minecraft:frozen_river"
+  ],
+
+  "atmosphere": {
+    "fog_color": 11468799,
+    "sky_color": 7977981
+  },
+
+  "priority": 100
+}

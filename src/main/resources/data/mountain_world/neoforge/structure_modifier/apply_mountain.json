@@ -9,13 +9,13 @@
       "distribution": "trapezoid"
     },
 
-    "surface_anchor": { "type": "isekai:world_surface" },
+    "surface_anchor": { "type": "isekai_api:world_surface" },
 
-    "ore_strategy":       { "type": "isekai:identity" },
-    "structure_strategy": { "type": "isekai:identity" },
-    "mob_spawn_strategy": { "type": "isekai:identity" },
+    "ore_strategy":       { "type": "isekai_api:identity" },
+    "structure_strategy": { "type": "isekai_api:identity" },
+    "mob_spawn_strategy": { "type": "isekai_api:identity" },
 
-    "default_structure_predicate": { "type": "isekai:always" },
+    "default_structure_predicate": { "type": "isekai_api:always" },
 
     "exclusions": {
       "structures": [

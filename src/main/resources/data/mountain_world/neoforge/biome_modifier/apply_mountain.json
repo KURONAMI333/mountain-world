@@ -9,33 +9,33 @@
       "distribution": "trapezoid"
     },
 
-    "surface_anchor": { "type": "isekai:world_surface" },
+    "surface_anchor": { "type": "isekai_api:world_surface" },
 
-    "ore_strategy":       { "type": "isekai:linear" },
-    "structure_strategy": { "type": "isekai:identity" },
-    "mob_spawn_strategy": { "type": "isekai:identity" },
+    "ore_strategy":       { "type": "isekai_api:linear" },
+    "structure_strategy": { "type": "isekai_api:identity" },
+    "mob_spawn_strategy": { "type": "isekai_api:identity" },
 
     "default_structure_predicate": {
-      "type": "isekai:and",
+      "type": "isekai_api:and",
       "all": [
-        { "type": "isekai:y_in_range", "min": 80, "max": 300 },
-        { "type": "isekai:solid_floor", "min_clearance": 3 }
+        { "type": "isekai_api:y_in_range", "min": 80, "max": 300 },
+        { "type": "isekai_api:solid_floor", "min_clearance": 3 }
       ]
     },
 
     "structure_predicates": {
-      "minecraft:village_plains":  { "type": "isekai:and", "all": [{ "type": "isekai:y_in_range", "min": 80, "max": 140 }, { "type": "isekai:solid_floor", "min_clearance": 4 }] },
-      "minecraft:village_savanna": { "type": "isekai:and", "all": [{ "type": "isekai:y_in_range", "min": 80, "max": 140 }, { "type": "isekai:solid_floor", "min_clearance": 4 }] },
-      "minecraft:village_taiga":   { "type": "isekai:and", "all": [{ "type": "isekai:y_in_range", "min": 80, "max": 140 }, { "type": "isekai:solid_floor", "min_clearance": 4 }] },
-      "minecraft:village_desert":  { "type": "isekai:and", "all": [{ "type": "isekai:y_in_range", "min": 80, "max": 140 }, { "type": "isekai:solid_floor", "min_clearance": 4 }] },
-      "minecraft:village_snowy":   { "type": "isekai:and", "all": [{ "type": "isekai:y_in_range", "min": 200, "max": 280 }, { "type": "isekai:solid_floor", "min_clearance": 4 }] },
-      "minecraft:stronghold":      { "type": "isekai:y_in_range", "min": -64, "max": 30 },
-      "minecraft:monument":  { "type": "isekai:never" },
-      "minecraft:shipwreck":          { "type": "isekai:never" },
-      "minecraft:shipwreck_beached":  { "type": "isekai:never" },
-      "minecraft:buried_treasure":    { "type": "isekai:never" },
-      "minecraft:ocean_ruin_cold":    { "type": "isekai:never" },
-      "minecraft:ocean_ruin_warm":    { "type": "isekai:never" }
+      "minecraft:village_plains":  { "type": "isekai_api:and", "all": [{ "type": "isekai_api:y_in_range", "min": 80, "max": 140 }, { "type": "isekai_api:solid_floor", "min_clearance": 4 }] },
+      "minecraft:village_savanna": { "type": "isekai_api:and", "all": [{ "type": "isekai_api:y_in_range", "min": 80, "max": 140 }, { "type": "isekai_api:solid_floor", "min_clearance": 4 }] },
+      "minecraft:village_taiga":   { "type": "isekai_api:and", "all": [{ "type": "isekai_api:y_in_range", "min": 80, "max": 140 }, { "type": "isekai_api:solid_floor", "min_clearance": 4 }] },
+      "minecraft:village_desert":  { "type": "isekai_api:and", "all": [{ "type": "isekai_api:y_in_range", "min": 80, "max": 140 }, { "type": "isekai_api:solid_floor", "min_clearance": 4 }] },
+      "minecraft:village_snowy":   { "type": "isekai_api:and", "all": [{ "type": "isekai_api:y_in_range", "min": 200, "max": 280 }, { "type": "isekai_api:solid_floor", "min_clearance": 4 }] },
+      "minecraft:stronghold":      { "type": "isekai_api:y_in_range", "min": -64, "max": 30 },
+      "minecraft:monument":  { "type": "isekai_api:never" },
+      "minecraft:shipwreck":          { "type": "isekai_api:never" },
+      "minecraft:shipwreck_beached":  { "type": "isekai_api:never" },
+      "minecraft:buried_treasure":    { "type": "isekai_api:never" },
+      "minecraft:ocean_ruin_cold":    { "type": "isekai_api:never" },
+      "minecraft:ocean_ruin_warm":    { "type": "isekai_api:never" }
     },
 
     "applies_to": [

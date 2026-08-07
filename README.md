@@ -2,7 +2,7 @@
 
 > The overworld becomes all mountain, all the time. Y 80..300 is playable, valleys cut down past Y 0 into chasms, peaks reach glacier biomes at Y 280+. Vertical traversal is the game.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey.svg)](LICENSE)
 [![NeoForge 1.21.1](https://img.shields.io/badge/NeoForge-1.21.1-orange.svg)](https://neoforged.net)
 [![Depends on Isekai API](https://img.shields.io/badge/Depends-Isekai%20API-9333ea)](https://github.com/KURONAMI333/isekai-api)
 
@@ -52,7 +52,7 @@ Because Mountain World **overlays** `data/minecraft/worldgen/noise_settings/over
 
 ## License
 
-[MIT License](LICENSE) — modpack inclusion welcome, no credit required.
+[All Rights Reserved](LICENSE) — modpack inclusion welcome, no credit required. Source is published so you can read exactly what it does.
 
 ## Credits
 

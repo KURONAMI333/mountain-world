@@ -30,4 +30,4 @@ Mountain World turns the overworld into all-mountain terrain — peaks reaching 
 
 Coexists with TerraBlender, YUNG's structure mods, map mods (Journeymap etc.), and dimension mods like Nullscape. Mutually exclusive with other overworld-overhaul mods (Terralith, William Wythers') — only one mod can own the overworld; no crash, last-loaded wins.
 
-MIT. Source & issues: https://github.com/KURONAMI333/mountain-world. Built on [Isekai API](https://modrinth.com/mod/isekai-api).
+All Rights Reserved (free to put in any modpack, no permission or credit needed). Source & issues: https://github.com/KURONAMI333/mountain-world. Built on [Isekai API](https://modrinth.com/mod/isekai-api).

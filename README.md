@@ -36,7 +36,7 @@ No Mixins, no custom blocks, no custom mobs. Mountain shape comes from vanilla's
 ## Dependencies
 
 - NeoForge 1.21.1
-- [Isekai API 1.0.0+](https://github.com/KURONAMI333/isekai-api) (required, loaded automatically)
+- [Isekai API 2.0.0+ (below 3.0.0)](https://github.com/KURONAMI333/isekai-api) (required, loaded automatically)
 
 ## Building from source
 
@@ -59,3 +59,11 @@ Because Mountain World **overlays** `data/minecraft/worldgen/noise_settings/over
 - Author: KURONAMI
 - Built on [Isekai API](https://github.com/KURONAMI333/isekai-api)
 - Terrain shape comes from Minecraft's vanilla `amplified` worldgen preset.
+
+## Downloads and support
+
+Downloads: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mountain-world).
+
+For bugs and questions, comment on the [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/mountain-world) or DM [@kuronami333 on X](https://x.com/kuronami333).
+
+[Source](https://github.com/KURONAMI333/mountain-world) · [License](LICENSE)
